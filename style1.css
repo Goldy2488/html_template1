@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.5)),url("Alleppey (Alappuzha) .jpeg");
+    background-size: cover;
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+ul{
+    float: right;  
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    width: 85%;
+    color:#fff;
+    padding: 35px 30px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+ul li a:hover{
+    color: blue;
+}
+
+/* 
+8 5 3
+8 0 0
+3 5 0
+3 2 3
+5 3 0
+2 3 3
+2 5 1
+
+
+    */
